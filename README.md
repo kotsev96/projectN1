@@ -1,0 +1,1 @@
+Учебный проект веб-приложения Project№1. Проект построен на архитектурном паттерне MVC. Применены технологии Spring Boot(Web, Data-JPA, Security, Mail, Validation, Test, DevTools, Freemarker), Junit, Postgres, Recaptcha, HTML, CSS (BootStrap).
