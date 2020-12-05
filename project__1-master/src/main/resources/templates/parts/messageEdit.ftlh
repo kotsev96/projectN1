@@ -1,4 +1,4 @@
-<a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+<a class="btn btn-outline-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
     Добавить пост
 </a>
 <div class="collapse <#if message??>show</#if>" id="collapseExample">
@@ -31,7 +31,7 @@
             <input type="hidden" name="_csrf" value="${_csrf.token}" />
             <input type="hidden" name="id" value="<#if message??>${message.id!"null or missing"}</#if>" />
             <div class="form-group">
-                <button type="submit" class="btn btn-primary">Сохранить</button>
+                <button type="submit" class="btn btn-outline-primary">Сохранить</button>
             </div>
         </form>
     </div>
