@@ -1,7 +1,7 @@
 <#include "security.ftlh">
 <#import "pager.ftlh" as p>
 
-<@p.pager url page />
+<@p.pager page url />
 <div class="card-columns" id="message-list">
     <#list page.content as message>
         <div class="card my-3" data-id="${message.id}">
@@ -36,4 +36,4 @@
     </#list>
 </div>
 
-<@p.pager url page />
+<@p.pager page url />
