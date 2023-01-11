@@ -54,7 +54,7 @@ public class LoginTest {
 
     @Test
     public void  badCredentials() throws Exception {
-        this.mockMvc.perform(post("/login").param("user", "Anatoliy"))
+        this.mockMvc.perform(post("/login").param("user", "Andrew"))
                 .andDo(print())
                 .andExpect(status().isForbidden());
     }
