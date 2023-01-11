@@ -1,6 +1,5 @@
-Учебный проект веб-приложения Project№1. Проект построен на архитектурном паттерне MVC. Применены технологии Spring Boot(Web, Data-JPA, Security, Mail, Validation, Test, DevTools, Freemarker), Junit, Postgres, Recaptcha, HTML, CSS (BootStrap).
+Проект построен на архитектурном паттерне MVC. Применены технологии Spring Boot(Web, Data-JPA, Security, Mail, Validation, Test, DevTools, Freemarker), Junit, Postgres, Recaptcha, HTML, CSS (BootStrap).
 
-<br>Деплой на AWS - http://projectn1.eu-central-1.elasticbeanstalk.com/ (временно недоступен, из-за ограничений AWS)
 <br> Логин/Пароль: 1223/1223
 
 <br> 1. Стартовая страница.
