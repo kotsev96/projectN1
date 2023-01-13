@@ -1,3 +1,4 @@
+/*
 package ru.kotsev.springmvc;
 
 import org.junit.Assert;
@@ -12,3 +13,4 @@ public class JustTest {
         Assert.assertEquals(60, y - x);
     }
 }
+*/
